@@ -1,0 +1,47 @@
+#  De Promesas a Estrellas ⭐⚽
+
+📊 Análisis predictivo de talento futbolístico con datos FIFA (2015–2024)
+
+Este proyecto, realizado como entrega final del Bootcamp de Análisis de Datos en Neoland, tiene como objetivo identificar jóvenes jugadores con alto potencial, analizando su evolución histórica y clasificándolos en perfiles relevantes para el scouting y la gestión deportiva.
+
+
+## 📁 Estructura del Proyecto
+
+- `notebooks/`: Jupyter Notebook con el análisis completo (Python).
+- `data/`: Muestra de los datos utilizados (origen: Kaggle, FIFA).
+- `img/`: Visualizaciones y gráficos de apoyo.
+- `powerbi/`: Archivo .pbix con dashboards interactivos.
+- `README.md`: Este documento.
+- `requirements.txt`: Librerías necesarias para reproducir el proyecto.
+
+
+## 🔧 Herramientas y tecnologías
+
+- Python (Pandas, Scikit-learn, Matplotlib, Seaborn)
+- Power BI
+- Canva
+- Git & GitHub
+
+
+## 📌 Principales Resultados
+
+- Dataset: +187K jugadores | 163 columnas originales | Período: 2015–2024
+- Reducción de columnas: -40%
+- Tratamiento de valores nulos: 4,45%
+- Segmentación en 4 clusters (PCA + K-means) con varianza explicada del 82%
+- Validación con coeficiente de silueta: 0.35
+- Identificación de grupo “Promesas” (30% del total)
+
+
+## 🎯 Impacto
+
+Modelo replicable para scouting, valoración de mercado y toma de decisiones deportivas con base en datos históricos y actuales. Escalable a clubes, academias y medios.
+
+---
+
+Proyecto final Bootcamp Neoland
+🧠 Creado por:
+Jennifer Morales
+Miriam Toril
+Ruben Calahorra
+Danny Rodríguez
